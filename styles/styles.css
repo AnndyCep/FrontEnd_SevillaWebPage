@@ -314,6 +314,10 @@
 		padding: 15px;
 	}
 
-	.container{
+	.container .productos{
 		padding: 1%;
+	}
+
+	#productos{
+		margin-bottom:  5%;
 	}
