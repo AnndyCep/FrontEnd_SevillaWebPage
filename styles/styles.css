@@ -314,6 +314,14 @@
 		padding: 15px;
 	}
 
-	.container{
+	.container .productos{
 		padding: 1%;
+	}
+
+	#productos{
+		margin-bottom:  5%;
+	}
+
+	.item-valores{
+		background: #56bf2a;
 	}
