@@ -81,6 +81,8 @@
 		color: #fff;
 		text-align: center;
 		padding: 20px;
+		bottom: 0;
+		
 	}
 	.footer-left {
 		display: flex;
@@ -281,16 +283,13 @@
 	}
 
 	#titulo{
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-
-	#cardProducts{
-		background-color: #FFFFFF;
-
+		padding-top: 3%;
+		padding-bottom: 5%;
 	}
 
 	#cardProducts {
+		background-color: #FFFFFF;
+		padding: 6%;
 		border-radius: 8px;
 		height: 100%;
 		width: 100%;
@@ -298,12 +297,13 @@
 		-moz-box-shadow: 4px 0px 26px 0px rgba(133,128,133,1);
 		box-shadow: 4px 0px 26px 0px rgba(133,128,133,1);
 	}
+
+	#cardProducts:hover {
+		background-size: 0 3px, 100% 3px;
+	}
+
 	.card-image img{
-		border-radius: 50%;
-		height: 130px;
-		padding-top: 20px;
-
-
+		height: 190px;
 	}
 
 	.card-text{
@@ -324,4 +324,132 @@
 
 	.item-valores{
 		background: #56bf2a;
+	}
+
+	.card-tittle{
+		padding: 4%;
+	}
+
+
+	.img-round{
+		border-radius: 3%;
+		padding: 0;
+	}
+
+	#cardProducts {
+		color: inherit;
+		text-decoration: none;
+	  }
+	  
+	  #cardProducts{
+		background:
+		  linear-gradient(
+			to right,
+			#56BF2A,
+			#56BF2A
+		  ),
+		  linear-gradient(
+			to right,
+			rgba(255, 0, 0, 1),
+			rgba(255, 0, 180, 1),
+			rgba(0, 100, 200, 1)
+		);
+		background-size: 100% 3px, 0 3px;
+		background-position: 100% 100%, 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size 400ms;
+	  }
+	  
+	  #cardProducts:hover {
+		background-size: 0 3px, 100% 3px;
+	  }
+
+	  .card-reciclaje{
+		height: 100%;
+		width: 100%;
+	  }
+
+	  .card-reciclaje-img{
+		height: 400px;
+		width: 300px;
+	  }
+
+	  .img-reciclaje{
+		width: 100%;
+  		height: auto;
+		border-radius: 6px;
+	  }
+
+	  .container-material{
+		position: relative;
+  		width: 100%;
+	  }
+
+	  .container-material-overlay{
+		position: absolute;
+		border-radius: 6px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #56BF2A;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		transform: scale(0);
+		transition: .4s ease;
+	  }
+
+	  .container-material:hover .container-material-overlay {
+		transform: scale(1);
+	  }
+
+	  .container-material-text {
+		color: white;
+		font-size: 19px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	  }
+	  
+	  .container-material-text h4{
+		padding-bottom: 5%;
+	  }
+
+	  .container-material-text li::marker {
+
+		color: green;   
+	
+	}
+	.material-tittle{
+		font-size: 3rem;
+		font-weight: bold;
+	}
+	.material-text{
+		font-size: 18px;
+		margin: 5%;
+	}
+
+	.line-material{
+		background-color: #56BF2A;
+		width: 80%;
+		height: 3px;
+	
+	}
+	
+	.padding-center{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.space-line{
+		padding-top: 5%;
+		padding-bottom: 5%;
+		border-radius: 5%;
+	}
+
+	.bg-whitesmoke{
+		background-color: #e4e4e454;
+		border-radius: 7px;
 	}
