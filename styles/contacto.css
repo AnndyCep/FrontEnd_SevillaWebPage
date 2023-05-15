@@ -9,13 +9,13 @@
 
 .navbar{
     width: 100%;
-    height: 120px;
+    height: 110px;
 }
 
 .container{
     width: 100%;
-    height: 40px;
-    margin-top: 10px;
+    height: 20px;
+    margin-top: 1px;
    
 }
 
@@ -34,7 +34,7 @@
     border-radius: 0;
     position: absolute;
     left: 50%;
-    top: 85%;
+    top: 80%;
     transform: translate(-50%,-50%);
 }
 
@@ -44,8 +44,8 @@
     border-radius: 0;
     margin-top: 650px;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 55px;
+    margin-left: 50px;
+    margin-right: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 6px 6px 6px 6px, rgba(0, 0, 0, 0.3) 6px 6px 6px 6px;
 }
 
@@ -91,7 +91,7 @@ footer {
     text-align: center;
    margin-top: 25px;
    margin-bottom: 0;
-   padding: 40px;
+   padding: 20px;
 }
 
 .footer-left {
