@@ -453,3 +453,8 @@
 		background-color: #e4e4e454;
 		border-radius: 7px;
 	}
+
+	.info{
+		text-align: center;
+		padding-bottom: 3%;
+	}
