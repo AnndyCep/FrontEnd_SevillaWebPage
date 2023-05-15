@@ -113,6 +113,10 @@
 		background-color: #56bf2a;
 		color: #ffffff;
 	}
+	.nuestro-trabajo__container:hover button{
+		background-color: #fff;
+		color: #56BF2A;
+	}
 
 	.bg-green {
 		background-color: #56bf2a;
@@ -452,4 +456,11 @@
 	.bg-whitesmoke{
 		background-color: #e4e4e454;
 		border-radius: 7px;
+	}
+	.leer-mas{
+		border:none;
+		border-radius: 5px;
+		background-color: #56BF2A;
+		padding: 5px 10px;
+		color: #fff;
 	}
