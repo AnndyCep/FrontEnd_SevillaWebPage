@@ -328,6 +328,10 @@
 
 	.item-valores{
 		background: #56bf2a;
+		width: 49%;
+		margin-left: 0.8%;
+		padding-top: 20px;
+		border-radius: 5px;
 	}
 
 	.card-tittle{
