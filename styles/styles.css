@@ -457,10 +457,13 @@
 		background-color: #e4e4e454;
 		border-radius: 7px;
 	}
+	.info{
+		text-align: center;
+		padding-bottom: 3%;
+	}
 	.leer-mas{
 		border:none;
 		border-radius: 5px;
 		background-color: #56BF2A;
 		padding: 5px 10px;
 		color: #fff;
-	}
