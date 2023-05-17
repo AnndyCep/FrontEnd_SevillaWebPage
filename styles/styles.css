@@ -284,7 +284,7 @@
 
 	#titulo{
 		padding-top: 3%;
-		padding-bottom: 5%;
+		padding-bottom: 2%;
 	}
 
 	#cardProducts {
@@ -457,4 +457,39 @@
 	.info{
 		text-align: center;
 		padding-bottom: 3%;
+	}
+
+	.info h3{
+		font-weight: 600;
+	}
+
+	
+
+	.info a {
+	color: inherit;
+	text-decoration: none;
+	font-size: 1rem;
+	}
+
+	.info a {
+	background:
+		linear-gradient(
+		to right,
+		#56BF2A,
+		#56BF2A
+		),
+		linear-gradient(
+		to right,
+		rgba(255, 0, 0, 1),
+		rgba(255, 0, 180, 1),
+		rgba(0, 100, 200, 1)
+	);
+	background-size: 100% 3px, 0 3px;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 400ms;
+	}
+
+	.info a:hover {
+	background-size: 0 3px, 100% 3px;
 	}
